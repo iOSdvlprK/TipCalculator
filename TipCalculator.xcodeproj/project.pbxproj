@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D83258A42B56BC8F006267A3 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83258A32B56BC8F006267A3 /* LabelFactory.swift */; };
 		D852BE832B53FC4A0003A0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BE822B53FC4A0003A0D1 /* AppDelegate.swift */; };
 		D852BE852B53FC4A0003A0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BE842B53FC4A0003A0D1 /* SceneDelegate.swift */; };
 		D852BE872B53FC4A0003A0D1 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BE862B53FC4A0003A0D1 /* CalculatorVC.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D83258A32B56BC8F006267A3 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		D852BE7F2B53FC4A0003A0D1 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D852BE822B53FC4A0003A0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D852BE842B53FC4A0003A0D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D83258A22B56BC3C006267A3 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D83258A32B56BC8F006267A3 /* LabelFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		D852BE762B53FC4A0003A0D1 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		D852BE812B53FC4A0003A0D1 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				D83258A22B56BC3C006267A3 /* Factory */,
 				D8930E182B557572002AF2E3 /* Extension */,
 				D8930E132B5574D8002AF2E3 /* Config */,
 				D852BEC02B541A100003A0D1 /* View */,
@@ -345,6 +356,7 @@
 				D852BE832B53FC4A0003A0D1 /* AppDelegate.swift in Sources */,
 				D8930E172B557505002AF2E3 /* ThemeFont.swift in Sources */,
 				D852BE852B53FC4A0003A0D1 /* SceneDelegate.swift in Sources */,
+				D83258A42B56BC8F006267A3 /* LabelFactory.swift in Sources */,
 				D852BECA2B541D170003A0D1 /* SplitInputView.swift in Sources */,
 				D852BEC82B541CFE0003A0D1 /* TipInputView.swift in Sources */,
 			);
