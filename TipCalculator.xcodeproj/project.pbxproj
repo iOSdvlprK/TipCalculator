@@ -26,6 +26,7 @@
 		D852BEC62B541CDB0003A0D1 /* BillInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BEC52B541CDB0003A0D1 /* BillInputView.swift */; };
 		D852BEC82B541CFE0003A0D1 /* TipInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BEC72B541CFE0003A0D1 /* TipInputView.swift */; };
 		D852BECA2B541D170003A0D1 /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BEC92B541D170003A0D1 /* SplitInputView.swift */; };
+		D868A7BE2B581CB500BAF33E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */; };
 		D8930E152B5574FA002AF2E3 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E142B5574FA002AF2E3 /* ThemeColor.swift */; };
 		D8930E172B557505002AF2E3 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E162B557505002AF2E3 /* ThemeFont.swift */; };
 		D8930E1A2B557594002AF2E3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E192B557594002AF2E3 /* UIColor+Extension.swift */; };
@@ -67,6 +68,7 @@
 		D852BEC52B541CDB0003A0D1 /* BillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillInputView.swift; sourceTree = "<group>"; };
 		D852BEC72B541CFE0003A0D1 /* TipInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipInputView.swift; sourceTree = "<group>"; };
 		D852BEC92B541D170003A0D1 /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
+		D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		D8930E142B5574FA002AF2E3 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		D8930E162B557505002AF2E3 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		D8930E192B557594002AF2E3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				D8930E192B557594002AF2E3 /* UIColor+Extension.swift */,
+				D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D852BE872B53FC4A0003A0D1 /* CalculatorVC.swift in Sources */,
+				D868A7BE2B581CB500BAF33E /* UIView+Extension.swift in Sources */,
 				D852BEC22B541A3D0003A0D1 /* LogoView.swift in Sources */,
 				D8930E152B5574FA002AF2E3 /* ThemeColor.swift in Sources */,
 				D8930E1A2B557594002AF2E3 /* UIColor+Extension.swift in Sources */,
