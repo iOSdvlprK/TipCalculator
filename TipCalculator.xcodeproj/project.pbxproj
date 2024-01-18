@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80B25082B596BA000E193A1 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B25072B596BA000E193A1 /* AmountView.swift */; };
 		D83258A42B56BC8F006267A3 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83258A32B56BC8F006267A3 /* LabelFactory.swift */; };
 		D852BE832B53FC4A0003A0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BE822B53FC4A0003A0D1 /* AppDelegate.swift */; };
 		D852BE852B53FC4A0003A0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BE842B53FC4A0003A0D1 /* SceneDelegate.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D80B25072B596BA000E193A1 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		D83258A32B56BC8F006267A3 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		D852BE7F2B53FC4A0003A0D1 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D852BE822B53FC4A0003A0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				D852BEC52B541CDB0003A0D1 /* BillInputView.swift */,
 				D852BEC72B541CFE0003A0D1 /* TipInputView.swift */,
 				D852BEC92B541D170003A0D1 /* SplitInputView.swift */,
+				D80B25072B596BA000E193A1 /* AmountView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80B25082B596BA000E193A1 /* AmountView.swift in Sources */,
 				D852BE872B53FC4A0003A0D1 /* CalculatorVC.swift in Sources */,
 				D868A7BE2B581CB500BAF33E /* UIView+Extension.swift in Sources */,
 				D852BEC22B541A3D0003A0D1 /* LogoView.swift in Sources */,
