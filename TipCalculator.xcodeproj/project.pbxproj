@@ -33,6 +33,8 @@
 		D8930E152B5574FA002AF2E3 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E142B5574FA002AF2E3 /* ThemeColor.swift */; };
 		D8930E172B557505002AF2E3 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E162B557505002AF2E3 /* ThemeFont.swift */; };
 		D8930E1A2B557594002AF2E3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E192B557594002AF2E3 /* UIColor+Extension.swift */; };
+		D8C297132B5FFAF200D86346 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C297122B5FFAF200D86346 /* CalculatorVM.swift */; };
+		D8C297152B5FFEEA00D86346 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C297142B5FFEEA00D86346 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		D8930E142B5574FA002AF2E3 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		D8930E162B557505002AF2E3 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		D8930E192B557594002AF2E3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D8C297122B5FFAF200D86346 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
+		D8C297142B5FFEEA00D86346 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				D81C62DA2B5D64BA0001A8F3 /* Tip.swift */,
+				D8C297142B5FFEEA00D86346 /* Result.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 		D852BE812B53FC4A0003A0D1 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				D8C297112B5FFADD00D86346 /* ViewModel */,
 				D81C62D92B5D64A30001A8F3 /* Model */,
 				D83258A22B56BC3C006267A3 /* Factory */,
 				D8930E182B557572002AF2E3 /* Extension */,
@@ -219,6 +225,14 @@
 				D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		D8C297112B5FFADD00D86346 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D8C297122B5FFAF200D86346 /* CalculatorVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +381,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C297152B5FFEEA00D86346 /* Result.swift in Sources */,
+				D8C297132B5FFAF200D86346 /* CalculatorVM.swift in Sources */,
 				D80B25082B596BA000E193A1 /* AmountView.swift in Sources */,
 				D852BE872B53FC4A0003A0D1 /* CalculatorVC.swift in Sources */,
 				D868A7BE2B581CB500BAF33E /* UIView+Extension.swift in Sources */,
