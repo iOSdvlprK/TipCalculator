@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D80B25082B596BA000E193A1 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B25072B596BA000E193A1 /* AmountView.swift */; };
+		D81446852B66955E00CC2B61 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81446842B66955E00CC2B61 /* Int+Extension.swift */; };
 		D81C62DB2B5D64BA0001A8F3 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C62DA2B5D64BA0001A8F3 /* Tip.swift */; };
 		D81C62DD2B5D652C0001A8F3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C62DC2B5D652C0001A8F3 /* HeaderView.swift */; };
 		D83258A42B56BC8F006267A3 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83258A32B56BC8F006267A3 /* LabelFactory.swift */; };
@@ -58,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		D80B25072B596BA000E193A1 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		D81446842B66955E00CC2B61 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		D81C62DA2B5D64BA0001A8F3 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		D81C62DC2B5D652C0001A8F3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		D83258A32B56BC8F006267A3 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */,
 				D84325752B61584600261372 /* String+Extension.swift */,
 				D876FE5A2B63F57F00F52FD3 /* UIResponder+Extension.swift */,
+				D81446842B66955E00CC2B61 /* Int+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				D8C297152B5FFEEA00D86346 /* Result.swift in Sources */,
 				D8C297132B5FFAF200D86346 /* CalculatorVM.swift in Sources */,
 				D876FE5B2B63F57F00F52FD3 /* UIResponder+Extension.swift in Sources */,
+				D81446852B66955E00CC2B61 /* Int+Extension.swift in Sources */,
 				D80B25082B596BA000E193A1 /* AmountView.swift in Sources */,
 				D84325762B61584600261372 /* String+Extension.swift in Sources */,
 				D852BE872B53FC4A0003A0D1 /* CalculatorVC.swift in Sources */,
