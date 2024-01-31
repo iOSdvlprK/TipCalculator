@@ -33,6 +33,7 @@
 		D852BECA2B541D170003A0D1 /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BEC92B541D170003A0D1 /* SplitInputView.swift */; };
 		D868A7BE2B581CB500BAF33E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */; };
 		D876FE5B2B63F57F00F52FD3 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876FE5A2B63F57F00F52FD3 /* UIResponder+Extension.swift */; };
+		D882256A2B6A730A00DAEED3 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88225692B6A730A00DAEED3 /* Double+Extension.swift */; };
 		D8930E152B5574FA002AF2E3 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E142B5574FA002AF2E3 /* ThemeColor.swift */; };
 		D8930E172B557505002AF2E3 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E162B557505002AF2E3 /* ThemeFont.swift */; };
 		D8930E1A2B557594002AF2E3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E192B557594002AF2E3 /* UIColor+Extension.swift */; };
@@ -83,6 +84,7 @@
 		D852BEC92B541D170003A0D1 /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
 		D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		D876FE5A2B63F57F00F52FD3 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+		D88225692B6A730A00DAEED3 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		D8930E142B5574FA002AF2E3 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		D8930E162B557505002AF2E3 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		D8930E192B557594002AF2E3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				D84325752B61584600261372 /* String+Extension.swift */,
 				D876FE5A2B63F57F00F52FD3 /* UIResponder+Extension.swift */,
 				D81446842B66955E00CC2B61 /* Int+Extension.swift */,
+				D88225692B6A730A00DAEED3 /* Double+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				D852BEC62B541CDB0003A0D1 /* BillInputView.swift in Sources */,
 				D852BEC42B541CAC0003A0D1 /* ResultView.swift in Sources */,
 				D852BE832B53FC4A0003A0D1 /* AppDelegate.swift in Sources */,
+				D882256A2B6A730A00DAEED3 /* Double+Extension.swift in Sources */,
 				D8930E172B557505002AF2E3 /* ThemeFont.swift in Sources */,
 				D852BE852B53FC4A0003A0D1 /* SceneDelegate.swift in Sources */,
 				D83258A42B56BC8F006267A3 /* LabelFactory.swift in Sources */,
