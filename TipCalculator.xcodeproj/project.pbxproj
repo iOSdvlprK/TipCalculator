@@ -33,6 +33,8 @@
 		D852BECA2B541D170003A0D1 /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852BEC92B541D170003A0D1 /* SplitInputView.swift */; };
 		D868A7BE2B581CB500BAF33E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */; };
 		D876FE5B2B63F57F00F52FD3 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876FE5A2B63F57F00F52FD3 /* UIResponder+Extension.swift */; };
+		D87A75612B6E7BA300DB4896 /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D87A75602B6E7BA300DB4896 /* click.m4a */; };
+		D87A75642B6E7CE700DB4896 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A75632B6E7CE700DB4896 /* AudioPlayerService.swift */; };
 		D882256A2B6A730A00DAEED3 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88225692B6A730A00DAEED3 /* Double+Extension.swift */; };
 		D8930E152B5574FA002AF2E3 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E142B5574FA002AF2E3 /* ThemeColor.swift */; };
 		D8930E172B557505002AF2E3 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E162B557505002AF2E3 /* ThemeFont.swift */; };
@@ -84,6 +86,8 @@
 		D852BEC92B541D170003A0D1 /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
 		D868A7BD2B581CB500BAF33E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		D876FE5A2B63F57F00F52FD3 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+		D87A75602B6E7BA300DB4896 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		D87A75632B6E7CE700DB4896 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 		D88225692B6A730A00DAEED3 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		D8930E142B5574FA002AF2E3 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		D8930E162B557505002AF2E3 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 		D852BE812B53FC4A0003A0D1 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				D87A75622B6E7CCC00DB4896 /* Service */,
+				D87A755F2B6E7B3B00DB4896 /* Resource */,
 				D8C297112B5FFADD00D86346 /* ViewModel */,
 				D81C62D92B5D64A30001A8F3 /* Model */,
 				D83258A22B56BC3C006267A3 /* Factory */,
@@ -215,6 +221,22 @@
 				D81C62DC2B5D652C0001A8F3 /* HeaderView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D87A755F2B6E7B3B00DB4896 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D87A75602B6E7BA300DB4896 /* click.m4a */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D87A75622B6E7CCC00DB4896 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D87A75632B6E7CE700DB4896 /* AudioPlayerService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		D8930E132B5574D8002AF2E3 /* Config */ = {
@@ -367,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87A75612B6E7BA300DB4896 /* click.m4a in Resources */,
 				D852BE8F2B53FC4B0003A0D1 /* LaunchScreen.storyboard in Resources */,
 				D852BE8C2B53FC4B0003A0D1 /* Assets.xcassets in Resources */,
 			);
@@ -405,6 +428,7 @@
 				D8930E152B5574FA002AF2E3 /* ThemeColor.swift in Sources */,
 				D8930E1A2B557594002AF2E3 /* UIColor+Extension.swift in Sources */,
 				D852BEC62B541CDB0003A0D1 /* BillInputView.swift in Sources */,
+				D87A75642B6E7CE700DB4896 /* AudioPlayerService.swift in Sources */,
 				D852BEC42B541CAC0003A0D1 /* ResultView.swift in Sources */,
 				D852BE832B53FC4A0003A0D1 /* AppDelegate.swift in Sources */,
 				D882256A2B6A730A00DAEED3 /* Double+Extension.swift in Sources */,
